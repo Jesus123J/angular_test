@@ -1,0 +1,5 @@
+
+
+angular -> v19
+
+utlizaremos Bun pagina (manejo de paquetes , compilacion )
