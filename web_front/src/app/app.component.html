@@ -1,0 +1,92 @@
+<app-navbar></app-navbar>
+
+<!-- Carrusel con altura fija y ajuste de imagen -->
+<div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="train.jpg" class="d-block w-100" alt="..." id="carousel-img">
+    </div>
+    <div class="carousel-item">
+      <img src="train.jpg" class="d-block w-100" alt="..." id="carousel-img">
+    </div>
+    <div class="carousel-item">
+      <img src="train.jpg" class="d-block w-100" alt="..." id="carousel-img">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<style>
+  #carouselExampleAutoplaying {
+    max-height: 400px; /* Altura fija */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+  }
+
+  #carousel-img {
+    height: 400px; /* Ajusta la altura */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+  }
+</style>
+
+<!-- Sección de Noticias -->
+<section id="news" class="container mt-5">
+  <h2>Últimas Noticias</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="news1.jpg" class="card-img-top" alt="Noticia 1">
+        <div class="card-body">
+          <h5 class="card-title">Título Noticia 1</h5>
+          <p class="card-text">Resumen de la noticia...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="news2.jpg" class="card-img-top" alt="Noticia 2">
+        <div class="card-body">
+          <h5 class="card-title">Título Noticia 2</h5>
+          <p class="card-text">Resumen de la noticia...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Productos -->
+<section id="products" class="container mt-5">
+  <h2>Productos Destacados</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="product1.jpg" class="card-img-top" alt="Producto 1">
+        <div class="card-body">
+          <h5 class="card-title">Producto 1</h5>
+          <p class="card-text">Descripción del producto...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="product2.jpg" class="card-img-top" alt="Producto 2">
+        <div class="card-body">
+          <h5 class="card-title">Producto 2</h5>
+          <p class="card-text">Descripción del producto...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/tu-numero" class="btn btn-success position-fixed bottom-0 end-0 m-4">
+  <i class="fab fa-whatsapp"></i> Contáctanos
+</a>

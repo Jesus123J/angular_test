@@ -7,6 +7,7 @@ function suma(a: number, b: number): number {
     return a + b;
 }
 
+
 suma(1, 2); // 3
 //suma("a", 2) // "a2"  
 //suma("a", "b") // "ab"
@@ -42,5 +43,11 @@ const useree: UserClass = {
     getName: () => "John",
 }
 
+type userType = User | UserClass;
+
+const userType: userType = {
+     name : "John",
+        age: 30,
+}
 
 const userClass : UserClass = new UserClass("Pepe");

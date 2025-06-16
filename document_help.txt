@@ -2,4 +2,11 @@
 
 angular -> v19
 
+
 utlizaremos Bun pagina (manejo de paquetes , compilacion )
+
+para el uso de angular  // primero se debe de instalar node.js
+y luego en el centro de comandos  // npm install -g @angular/cli
+-- ver la version de angular  // ng v || ng version
+
+-- creacion de component  // ng generate component  "name " || ng g c "name"
